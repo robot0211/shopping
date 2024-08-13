@@ -1,0 +1,14 @@
+.image{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.container_image_path{
+    margin-top: 20px;
+}
+
+.alert-danger{
+    margin-top: 3px;
+    padding: 2px 5px;
+}

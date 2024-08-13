@@ -1,0 +1,37 @@
+/* Đặt phần tử dropdown ở góc phải màn hình */
+.dropdown {
+    position: absolute;
+    top: 10%px;
+    right: 10%;
+}
+
+/* Tăng độ thẩm mỹ cho nút bấm */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+    font-size: 14px; /* Giảm kích thước chữ */
+    padding: 5px 10px; /* Giảm padding */
+    border-radius: 3px; /* Giảm bo góc */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Tăng độ thẩm mỹ cho dropdown menu */
+.dropdown-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tăng độ thẩm mỹ cho các item trong dropdown */
+.dropdown-item {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.dropdown-item:hover {
+    background-color: #495057;
+}

@@ -1,0 +1,106 @@
+    /* CSS cho Wishlist */
+
+    .main {
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    
+    .page-header {
+        background-color: #343a40;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .page-header h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+    
+    .wishlist-title h2 {
+        border-bottom: 2px solid #343a40;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .wishlist-table-container {
+        overflow-x: auto;
+    }
+    
+    .table-wishlist {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    
+    .table-wishlist thead {
+        background-color: #343a40;
+        color: white;
+    }
+    
+    .table-wishlist th,
+    .table-wishlist td {
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #dee2e6;
+    }
+    
+    .product-image-container {
+        position: relative;
+    }
+    
+    .product-image {
+        display: block;
+        max-width: 100px;
+        margin: auto;
+    }
+    
+    .btn-remove {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #ff6b6b;
+        cursor: pointer;
+    }
+    
+    .product-title a {
+        color: #343a40;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .price-box {
+        font-size: 18px;
+        color: #28a745;
+    }
+    
+    .stock-status {
+        color: #28a745;
+        font-weight: bold;
+    }
+    
+    .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .action .btn {
+        margin-bottom: 10px;
+    }
+    
+    .btn-quickview {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-add-cart {
+        background-color: #343a40;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }

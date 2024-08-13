@@ -1,0 +1,40 @@
+.card-header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.card-header h5 {
+    margin: 0;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    background-color: darkgray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+}
+.card-header label {
+    margin: 0;
+    margin-right: 0.5rem;
+}
+.card-body {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: whitesmoke;
+    border-block: black;
+}
+.card-body:last-child {
+    border-bottom: none;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1rem;
+}
+.card-title label {
+    margin: 0;
+    margin-right: 0.5rem;
+}

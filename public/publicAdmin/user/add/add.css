@@ -1,0 +1,38 @@
+.select2_init {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử chứa */
+    max-width: 400px; /* Bạn có thể đặt một chiều rộng tối đa nếu cần */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước tổng thể */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.select2-container .select2-selection--single {
+    height: 38px;
+}
+.select2-selection__choice__display {
+    background-color: #e0f7fa;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 2px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.select2-selection__choice__display:hover {
+    background-color: #53dcee;
+    color: #000; 
+}
+
+.select2-selection__choice__display:active {
+    background-color: #53dcee; 
+    color: #000;
+}
+
+.alert-danger{
+    margin-top: 3px;
+    padding: 2px 5px;
+}
