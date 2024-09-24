@@ -21,38 +21,28 @@ This project is a fully functional e-commerce website that allows users to brows
 1. Clone the repository:
    ```bash
    git clone https://github.com/robot0211/shopping.git
-Navigate to the project directory:
-bash
-Sao chép mã
-cd shopping
-Set up your environment:
-Create a .env file and configure your database settings.
-Install dependencies:
-composer install
-Run migrations:
-php artisan migrate
-Start the server:
-php artisan serve
-Usage
-Access the website by navigating to http://localhost:8000/home in your web browser.
-Register a new account or log in to an existing account.
-Browse products, add them to your cart, and complete the checkout process.
-Security Considerations
-Ensure that your database credentials are kept secure in the .env file.
-Regularly update dependencies to mitigate security vulnerabilities.
-Contributing
-Contributions are welcome! Please follow these steps:
+2. Navigate to the project directory:
+    cd shopping
+3. Set up your environment:
+    Create a .env file and configure your database settings.
+4. Install dependencies:
+    composer install
+5. Run migrations:
+    php artisan migrate
+6. Start the server:
+    php artisan serve
 
-Fork the repository.
-Create a new branch:
-git checkout -b feature/YourFeature
-Commit your changes:
-git commit -m "Add your message"
-Push to the branch:
-git push origin feature/YourFeature
-Open a pull request.
-License
+## Usage
+- Access the website by navigating to http://localhost:8000/home in your web browser.
+- Register a new account or log in to an existing account.
+- Browse products, add them to your cart, and complete the checkout process.
+
+## Security Considerations
+- Ensure that your database credentials are kept secure in the .env file.
+- Regularly update dependencies to mitigate security vulnerabilities.
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 Laravel for the robust framework.
