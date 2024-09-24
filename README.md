@@ -22,14 +22,19 @@ This project is a fully functional e-commerce website that allows users to brows
    ```bash
    git clone https://github.com/robot0211/shopping.git
 2. Navigate to the project directory:
-    cd shopping
-3. Set up your environment:
-    Create a .env file and configure your database settings.
-4. Install dependencies:
-    composer install
-5. Run migrations:
-    php artisan migrate
-6. Start the server:
+   ```bash
+   cd shopping
+4. Set up your environment:
+   ```bash
+   Create a .env file and configure your database settings.
+6. Install dependencies:
+   ```bash
+   composer install
+8. Run migrations:
+   ```bash
+   php artisan migrate
+10. Start the server:
+    ```bash
     php artisan serve
 
 ## Usage
